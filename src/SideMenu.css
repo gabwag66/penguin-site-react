@@ -1,0 +1,28 @@
+.menu {
+    height: 700px;
+    width: 300px;
+    background-color:rgb(61, 56, 56);
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 6px 6px 6px black;
+    color: white;
+    float: left;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menupoints{
+    color: rgb(223, 149, 13);
+    border: 2px solid black;
+    background-color: rgb(138, 132, 132);
+    border-radius: 6px;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center; 
+}
+
+.hide{
+    display:none;
+}

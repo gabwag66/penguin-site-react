@@ -1,0 +1,54 @@
+.penguins {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  }
+  
+  .penguin {
+      color: white;
+      background-color:rgb(61, 56, 56);
+      max-width: 25%;
+      margin: 20px;
+      padding: 10px;
+      box-shadow: 6px 6px 6px black;
+      transition: .5s all;
+      
+  
+  }
+  
+  .penguin img {
+      max-height: 200px;
+      float:left;
+      margin-right: 10px;
+      border: 2px solid black;
+      border-radius: 6px;
+      filter: drop-shadow(4px 4px 4px black);
+      shape-outside: circle();
+      clip-path: circle();
+      
+  }
+  
+  .penguin span{
+      filter: drop-shadow(2px 2px 2px black);
+  }
+  
+  .penguin p {
+      text-align:left;
+      font-size: 18px;
+  }
+  
+  .penguin h2 {
+      color: rgb(223, 149, 13);
+      text-align: center;
+      text-decoration: underline;
+  }
+  
+  .penguin h2:hover {
+      color:red;
+  }
+  
+  .penguin:hover{
+      transform: scale(1.05);
+  }
