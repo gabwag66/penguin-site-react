@@ -114,7 +114,7 @@ class Cards extends React.Component{
               element.push(
                 <div className={this.getClassNames()} data-target={penguin.target} onClick={(event) => this.hidePenguinOnClick(event)}>
                     <h2>{penguin.name}</h2>
-                    <span><img src={penguin.imgSource} onMouseOver={this.PenguinImageHover}/></span>
+                    <span><img src={penguin.imgSource} onMouseOver={() => this.ShowAllPenguin()}/></span>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
